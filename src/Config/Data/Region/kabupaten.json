@@ -1,0 +1,2572 @@
+[
+  {
+    "code": "200001",
+    "description": "KABUPATEN GIANYAR",
+    "parentCode": "100001"
+  },
+  {
+    "code": "200002",
+    "description": "KABUPATEN BANGLI",
+    "parentCode": "100001"
+  },
+  {
+    "code": "200003",
+    "description": "KABUPATEN BULELENG",
+    "parentCode": "100001"
+  },
+  {
+    "code": "200004",
+    "description": "KABUPATEN TABANAN",
+    "parentCode": "100001"
+  },
+  {
+    "code": "200005",
+    "description": "KABUPATEN KARANGASEM",
+    "parentCode": "100001"
+  },
+  {
+    "code": "200006",
+    "description": "KABUPATEN BADUNG",
+    "parentCode": "100001"
+  },
+  {
+    "code": "200007",
+    "description": "KABUPATEN JEMBRANA",
+    "parentCode": "100001"
+  },
+  {
+    "code": "200008",
+    "description": "KABUPATEN KLUNGKUNG",
+    "parentCode": "100001"
+  },
+  {
+    "code": "200009",
+    "description": "KOTA DENPASAR",
+    "parentCode": "100001"
+  },
+  {
+    "code": "200010",
+    "description": "KABUPATEN BANGKA SELATAN",
+    "parentCode": "100002"
+  },
+  {
+    "code": "200011",
+    "description": "KABUPATEN BANGKA BARAT",
+    "parentCode": "100002"
+  },
+  {
+    "code": "200012",
+    "description": "KABUPATEN BELITUNG",
+    "parentCode": "100002"
+  },
+  {
+    "code": "200013",
+    "description": "KOTA PANGKAL PINANG",
+    "parentCode": "100002"
+  },
+  {
+    "code": "200014",
+    "description": "KABUPATEN BANGKA TENGAH",
+    "parentCode": "100002"
+  },
+  {
+    "code": "200015",
+    "description": "KABUPATEN BANGKA",
+    "parentCode": "100002"
+  },
+  {
+    "code": "200016",
+    "description": "KABUPATEN BELITUNG TIMUR",
+    "parentCode": "100002"
+  },
+  {
+    "code": "200017",
+    "description": "KABUPATEN LEBAK",
+    "parentCode": "100003"
+  },
+  {
+    "code": "200018",
+    "description": "KABUPATEN SERANG",
+    "parentCode": "100003"
+  },
+  {
+    "code": "200019",
+    "description": "KOTA SERANG",
+    "parentCode": "100003"
+  },
+  {
+    "code": "200020",
+    "description": "KABUPATEN TANGERANG",
+    "parentCode": "100003"
+  },
+  {
+    "code": "200021",
+    "description": "KOTA TANGERANG",
+    "parentCode": "100003"
+  },
+  {
+    "code": "200022",
+    "description": "KABUPATEN PANDEGLANG",
+    "parentCode": "100003"
+  },
+  {
+    "code": "200023",
+    "description": "KOTA TANGERANG SELATAN",
+    "parentCode": "100003"
+  },
+  {
+    "code": "200024",
+    "description": "KOTA CILEGON",
+    "parentCode": "100003"
+  },
+  {
+    "code": "200025",
+    "description": "KABUPATEN SELUMA",
+    "parentCode": "100004"
+  },
+  {
+    "code": "200026",
+    "description": "KABUPATEN BENGKULU TENGAH",
+    "parentCode": "100004"
+  },
+  {
+    "code": "200027",
+    "description": "KOTA BENGKULU",
+    "parentCode": "100004"
+  },
+  {
+    "code": "200028",
+    "description": "KABUPATEN MUKO MUKO",
+    "parentCode": "100004"
+  },
+  {
+    "code": "200029",
+    "description": "KABUPATEN REJANG LEBONG",
+    "parentCode": "100004"
+  },
+  {
+    "code": "200030",
+    "description": "KABUPATEN KAUR",
+    "parentCode": "100004"
+  },
+  {
+    "code": "200031",
+    "description": "KABUPATEN BENGKULU SELATAN",
+    "parentCode": "100004"
+  },
+  {
+    "code": "200032",
+    "description": "KABUPATEN KEPAHIANG",
+    "parentCode": "100004"
+  },
+  {
+    "code": "200033",
+    "description": "KABUPATEN LEBONG",
+    "parentCode": "100004"
+  },
+  {
+    "code": "200034",
+    "description": "KABUPATEN BENGKULU UTARA",
+    "parentCode": "100004"
+  },
+  {
+    "code": "200035",
+    "description": "KABUPATEN GUNUNG KIDUL",
+    "parentCode": "100005"
+  },
+  {
+    "code": "200036",
+    "description": "KOTA YOGYAKARTA",
+    "parentCode": "100005"
+  },
+  {
+    "code": "200037",
+    "description": "KABUPATEN KULON PROGO",
+    "parentCode": "100005"
+  },
+  {
+    "code": "200038",
+    "description": "KABUPATEN SLEMAN",
+    "parentCode": "100005"
+  },
+  {
+    "code": "200039",
+    "description": "KABUPATEN BANTUL",
+    "parentCode": "100005"
+  },
+  {
+    "code": "200042",
+    "description": "JAKARTA PUSAT",
+    "parentCode": "100006"
+  },
+  {
+    "code": "200043",
+    "description": "JAKARTA BARAT",
+    "parentCode": "100006"
+  },
+  {
+    "code": "200045",
+    "description": "KABUPATEN KEPULAUAN SERIBU",
+    "parentCode": "100006"
+  },
+  {
+    "code": "200046",
+    "description": "KABUPATEN BOALEMO",
+    "parentCode": "100007"
+  },
+  {
+    "code": "200047",
+    "description": "KABUPATEN POHUWATO",
+    "parentCode": "100007"
+  },
+  {
+    "code": "200048",
+    "description": "KABUPATEN GORONTALO UTARA",
+    "parentCode": "100007"
+  },
+  {
+    "code": "200049",
+    "description": "KABUPATEN GORONTALO",
+    "parentCode": "100007"
+  },
+  {
+    "code": "200050",
+    "description": "KABUPATEN BONE BOLANGO",
+    "parentCode": "100007"
+  },
+  {
+    "code": "200051",
+    "description": "KOTA GORONTALO",
+    "parentCode": "100007"
+  },
+  {
+    "code": "200052",
+    "description": "KABUPATEN TEBO",
+    "parentCode": "100008"
+  },
+  {
+    "code": "200053",
+    "description": "KABUPATEN TANJUNG JABUNG BARAT",
+    "parentCode": "100008"
+  },
+  {
+    "code": "200054",
+    "description": "KABUPATEN MERANGIN",
+    "parentCode": "100008"
+  },
+  {
+    "code": "200055",
+    "description": "KOTA JAMBI",
+    "parentCode": "100008"
+  },
+  {
+    "code": "200056",
+    "description": "KABUPATEN BUNGO",
+    "parentCode": "100008"
+  },
+  {
+    "code": "200057",
+    "description": "KOTA SUNGAIPENUH",
+    "parentCode": "100008"
+  },
+  {
+    "code": "200058",
+    "description": "KABUPATEN MUARO JAMBI",
+    "parentCode": "100008"
+  },
+  {
+    "code": "200059",
+    "description": "KABUPATEN KERINCI",
+    "parentCode": "100008"
+  },
+  {
+    "code": "200060",
+    "description": "KABUPATEN SAROLANGUN",
+    "parentCode": "100008"
+  },
+  {
+    "code": "200061",
+    "description": "KABUPATEN TANJUNG JABUNG TIMUR",
+    "parentCode": "100008"
+  },
+  {
+    "code": "200062",
+    "description": "KABUPATEN BATANG HARI",
+    "parentCode": "100008"
+  },
+  {
+    "code": "200063",
+    "description": "KABUPATEN INDRAMAYU",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200064",
+    "description": "KABUPATEN CIREBON",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200065",
+    "description": "KABUPATEN CIANJUR",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200066",
+    "description": "KABUPATEN SUKABUMI",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200067",
+    "description": "KOTA SUKABUMI",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200068",
+    "description": "KABUPATEN PURWAKARTA",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200069",
+    "description": "KABUPATEN GARUT",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200070",
+    "description": "KABUPATEN SUMEDANG",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200071",
+    "description": "KOTA BANDUNG",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200072",
+    "description": "KABUPATEN KARAWANG",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200073",
+    "description": "KABUPATEN BOGOR",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200074",
+    "description": "KOTA TASIKMALAYA",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200075",
+    "description": "KABUPATEN BEKASI",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200076",
+    "description": "KABUPATEN TASIKMALAYA",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200077",
+    "description": "KOTA DEPOK",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200078",
+    "description": "KABUPATEN SUBANG",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200079",
+    "description": "KOTA BOGOR",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200080",
+    "description": "KABUPATEN CIAMIS",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200081",
+    "description": "KABUPATEN MAJALENGKA",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200082",
+    "description": "KABUPATEN KUNINGAN",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200083",
+    "description": "KABUPATEN BANDUNG",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200084",
+    "description": "KABUPATEN BANDUNG BARAT",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200085",
+    "description": "KABUPATEN PANGANDARAN",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200086",
+    "description": "KOTA BEKASI",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200087",
+    "description": "KOTA BANJAR",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200088",
+    "description": "KOTA CIREBON",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200089",
+    "description": "KOTA CIMAHI",
+    "parentCode": "100009"
+  },
+  {
+    "code": "200090",
+    "description": "KABUPATEN WONOGIRI",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200091",
+    "description": "KABUPATEN BATANG",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200092",
+    "description": "KABUPATEN WONOSOBO",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200093",
+    "description": "KABUPATEN BOYOLALI",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200094",
+    "description": "KABUPATEN KLATEN",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200095",
+    "description": "KABUPATEN DEMAK",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200096",
+    "description": "KABUPATEN PEKALONGAN",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200097",
+    "description": "KABUPATEN TEMANGGUNG",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200098",
+    "description": "KABUPATEN GROBOGAN",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200099",
+    "description": "KABUPATEN PATI",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200100",
+    "description": "KABUPATEN MAGELANG",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200101",
+    "description": "KABUPATEN SUKOHARJO",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200102",
+    "description": "KABUPATEN KENDAL",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200103",
+    "description": "KABUPATEN JEPARA",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200104",
+    "description": "KABUPATEN PEMALANG",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200105",
+    "description": "KABUPATEN TEGAL",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200106",
+    "description": "KABUPATEN BANYUMAS",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200107",
+    "description": "KABUPATEN BANJARNEGARA",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200108",
+    "description": "KABUPATEN BREBES",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200109",
+    "description": "KABUPATEN CILACAP",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200110",
+    "description": "KABUPATEN SEMARANG",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200111",
+    "description": "KABUPATEN KUDUS",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200112",
+    "description": "KABUPATEN BLORA",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200113",
+    "description": "KOTA SEMARANG",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200114",
+    "description": "KOTA SALATIGA",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200115",
+    "description": "KOTA TEGAL",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200116",
+    "description": "KABUPATEN KARANGANYAR",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200117",
+    "description": "KABUPATEN SRAGEN",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200118",
+    "description": "KABUPATEN REMBANG",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200119",
+    "description": "KABUPATEN KEBUMEN",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200120",
+    "description": "KOTA SURAKARTA",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200121",
+    "description": "KABUPATEN PURBALINGGA",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200122",
+    "description": "KABUPATEN PURWOREJO",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200123",
+    "description": "KOTA PEKALONGAN",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200124",
+    "description": "KOTA MAGELANG",
+    "parentCode": "100010"
+  },
+  {
+    "code": "200125",
+    "description": "KABUPATEN BANGKALAN",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200126",
+    "description": "KABUPATEN BANYUWANGI",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200127",
+    "description": "KOTA BATU",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200128",
+    "description": "KOTA BLITAR",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200129",
+    "description": "KABUPATEN BLITAR",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200130",
+    "description": "KABUPATEN BOJONEGORO",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200131",
+    "description": "KABUPATEN BONDOWOSO",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200132",
+    "description": "KABUPATEN GRESIK",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200133",
+    "description": "KABUPATEN JEMBER",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200134",
+    "description": "KABUPATEN JOMBANG",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200135",
+    "description": "KOTA KEDIRI",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200136",
+    "description": "KABUPATEN KEDIRI",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200137",
+    "description": "KABUPATEN LAMONGAN",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200138",
+    "description": "KABUPATEN LUMAJANG",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200139",
+    "description": "KOTA MADIUN",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200140",
+    "description": "KABUPATEN MADIUN",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200141",
+    "description": "KABUPATEN MAGETAN",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200142",
+    "description": "KOTA MALANG",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200143",
+    "description": "KABUPATEN MALANG",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200144",
+    "description": "KOTA MOJOKERTO",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200145",
+    "description": "KABUPATEN MOJOKERTO",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200146",
+    "description": "KABUPATEN NGANJUK",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200147",
+    "description": "KABUPATEN NGAWI",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200148",
+    "description": "KABUPATEN PACITAN",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200149",
+    "description": "KABUPATEN PAMEKASAN",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200150",
+    "description": "KOTA PASURUAN",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200151",
+    "description": "KABUPATEN PASURUAN",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200152",
+    "description": "KABUPATEN PONOROGO",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200153",
+    "description": "KOTA PROBOLINGGO",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200154",
+    "description": "KABUPATEN PROBOLINGGO",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200155",
+    "description": "KABUPATEN SAMPANG",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200156",
+    "description": "KABUPATEN SIDOARJO",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200157",
+    "description": "KABUPATEN SITUBONDO",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200158",
+    "description": "KABUPATEN SUMENEP",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200159",
+    "description": "KOTA SURABAYA",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200160",
+    "description": "KABUPATEN TRENGGALEK",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200161",
+    "description": "KABUPATEN TUBAN",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200162",
+    "description": "KABUPATEN TULUNGAGUNG",
+    "parentCode": "100011"
+  },
+  {
+    "code": "200163",
+    "description": "KABUPATEN BENGKAYANG",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200164",
+    "description": "KABUPATEN KAPUAS HULU",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200165",
+    "description": "KABUPATEN KAYONG UTARA",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200166",
+    "description": "KABUPATEN KETAPANG",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200167",
+    "description": "KABUPATEN KUBU RAYA",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200168",
+    "description": "KABUPATEN LANDAK",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200169",
+    "description": "KABUPATEN MELAWI",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200170",
+    "description": "KABUPATEN MEMPAWAH",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200171",
+    "description": "KOTA PONTIANAK",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200172",
+    "description": "KABUPATEN SAMBAS",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200173",
+    "description": "KABUPATEN SANGGAU",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200174",
+    "description": "KABUPATEN SEKADAU",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200175",
+    "description": "KOTA SINGKAWANG",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200176",
+    "description": "KABUPATEN SINTANG",
+    "parentCode": "100012"
+  },
+  {
+    "code": "200177",
+    "description": "KABUPATEN BALANGAN",
+    "parentCode": "100013"
+  },
+  {
+    "code": "200178",
+    "description": "KABUPATEN BANJAR",
+    "parentCode": "100013"
+  },
+  {
+    "code": "200179",
+    "description": "KOTA BANJARBARU",
+    "parentCode": "100013"
+  },
+  {
+    "code": "200180",
+    "description": "KOTA BANJARMASIN",
+    "parentCode": "100013"
+  },
+  {
+    "code": "200181",
+    "description": "KABUPATEN BARITO KUALA",
+    "parentCode": "100013"
+  },
+  {
+    "code": "200182",
+    "description": "KABUPATEN HULU SUNGAI SELATAN",
+    "parentCode": "100013"
+  },
+  {
+    "code": "200183",
+    "description": "KABUPATEN HULU SUNGAI TENGAH",
+    "parentCode": "100013"
+  },
+  {
+    "code": "200184",
+    "description": "KABUPATEN HULU SUNGAI UTARA",
+    "parentCode": "100013"
+  },
+  {
+    "code": "200185",
+    "description": "KABUPATEN KOTABARU",
+    "parentCode": "100013"
+  },
+  {
+    "code": "200186",
+    "description": "KABUPATEN TABALONG",
+    "parentCode": "100013"
+  },
+  {
+    "code": "200187",
+    "description": "KABUPATEN TANAH BUMBU",
+    "parentCode": "100013"
+  },
+  {
+    "code": "200188",
+    "description": "KABUPATEN TANAH LAUT",
+    "parentCode": "100013"
+  },
+  {
+    "code": "200189",
+    "description": "KABUPATEN TAPIN",
+    "parentCode": "100013"
+  },
+  {
+    "code": "200190",
+    "description": "KABUPATEN BARITO SELATAN",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200191",
+    "description": "KABUPATEN BARITO TIMUR",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200192",
+    "description": "KABUPATEN BARITO UTARA",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200193",
+    "description": "KABUPATEN GUNUNG MAS",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200194",
+    "description": "KABUPATEN KAPUAS",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200195",
+    "description": "KABUPATEN KATINGAN",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200196",
+    "description": "KABUPATEN KOTAWARINGIN BARAT",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200197",
+    "description": "KABUPATEN KOTAWARINGIN TIMUR",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200198",
+    "description": "KABUPATEN LAMANDAU",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200199",
+    "description": "KABUPATEN MURUNG RAYA",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200200",
+    "description": "KOTA PALANGKA RAYA",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200201",
+    "description": "KABUPATEN PULANG PISAU",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200202",
+    "description": "KABUPATEN SERUYAN",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200203",
+    "description": "KABUPATEN SUKAMARA",
+    "parentCode": "100014"
+  },
+  {
+    "code": "200204",
+    "description": "KOTA BALIKPAPAN",
+    "parentCode": "100015"
+  },
+  {
+    "code": "200205",
+    "description": "KABUPATEN BERAU",
+    "parentCode": "100015"
+  },
+  {
+    "code": "200206",
+    "description": "KOTA BONTANG",
+    "parentCode": "100015"
+  },
+  {
+    "code": "200207",
+    "description": "KABUPATEN KUTAI BARAT",
+    "parentCode": "100015"
+  },
+  {
+    "code": "200208",
+    "description": "KABUPATEN KUTAI KARTANEGARA",
+    "parentCode": "100015"
+  },
+  {
+    "code": "200209",
+    "description": "KABUPATEN KUTAI TIMUR",
+    "parentCode": "100015"
+  },
+  {
+    "code": "200210",
+    "description": "KABUPATEN MAHAKAM ULU",
+    "parentCode": "100015"
+  },
+  {
+    "code": "200211",
+    "description": "KABUPATEN PASER",
+    "parentCode": "100015"
+  },
+  {
+    "code": "200212",
+    "description": "KABUPATEN PENAJAM PASER UTARA",
+    "parentCode": "100015"
+  },
+  {
+    "code": "200213",
+    "description": "KOTA SAMARINDA",
+    "parentCode": "100015"
+  },
+  {
+    "code": "200214",
+    "description": "KABUPATEN BULUNGAN",
+    "parentCode": "100016"
+  },
+  {
+    "code": "200215",
+    "description": "KABUPATEN MALINAU",
+    "parentCode": "100016"
+  },
+  {
+    "code": "200216",
+    "description": "KABUPATEN NUNUKAN",
+    "parentCode": "100016"
+  },
+  {
+    "code": "200217",
+    "description": "KABUPATEN TANA TIDUNG",
+    "parentCode": "100016"
+  },
+  {
+    "code": "200218",
+    "description": "KOTA TARAKAN",
+    "parentCode": "100016"
+  },
+  {
+    "code": "200219",
+    "description": "KOTA BATAM",
+    "parentCode": "100017"
+  },
+  {
+    "code": "200220",
+    "description": "KABUPATEN BINTAN",
+    "parentCode": "100017"
+  },
+  {
+    "code": "200221",
+    "description": "KABUPATEN KARIMUN",
+    "parentCode": "100017"
+  },
+  {
+    "code": "200222",
+    "description": "KABUPATEN KEPULAUAN ANAMBAS",
+    "parentCode": "100017"
+  },
+  {
+    "code": "200223",
+    "description": "KABUPATEN LINGGA",
+    "parentCode": "100017"
+  },
+  {
+    "code": "200224",
+    "description": "KABUPATEN NATUNA",
+    "parentCode": "100017"
+  },
+  {
+    "code": "200225",
+    "description": "KOTA TANJUNG PINANG",
+    "parentCode": "100017"
+  },
+  {
+    "code": "200226",
+    "description": "KOTA BANDAR LAMPUNG",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200227",
+    "description": "KABUPATEN LAMPUNG BARAT",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200228",
+    "description": "KABUPATEN LAMPUNG SELATAN",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200229",
+    "description": "KABUPATEN LAMPUNG TENGAH",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200230",
+    "description": "KABUPATEN LAMPUNG TIMUR",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200231",
+    "description": "KABUPATEN LAMPUNG UTARA",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200232",
+    "description": "KABUPATEN MESUJI",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200233",
+    "description": "KOTA METRO",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200234",
+    "description": "KABUPATEN PESAWARAN",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200235",
+    "description": "KABUPATEN PESISIR BARAT",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200236",
+    "description": "KABUPATEN PRINGSEWU",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200237",
+    "description": "KABUPATEN TANGGAMUS",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200238",
+    "description": "KABUPATEN TULANG BAWANG",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200239",
+    "description": "KABUPATEN TULANG BAWANG BARAT",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200240",
+    "description": "KABUPATEN WAY KANAN",
+    "parentCode": "100018"
+  },
+  {
+    "code": "200241",
+    "description": "KOTA AMBON",
+    "parentCode": "100019"
+  },
+  {
+    "code": "200242",
+    "description": "KABUPATEN BURU",
+    "parentCode": "100019"
+  },
+  {
+    "code": "200243",
+    "description": "KABUPATEN BURU SELATAN",
+    "parentCode": "100019"
+  },
+  {
+    "code": "200244",
+    "description": "KABUPATEN KEPULAUAN ARU",
+    "parentCode": "100019"
+  },
+  {
+    "code": "200245",
+    "description": "KABUPATEN MALUKU BARAT DAYA",
+    "parentCode": "100019"
+  },
+  {
+    "code": "200246",
+    "description": "KABUPATEN MALUKU TENGAH",
+    "parentCode": "100019"
+  },
+  {
+    "code": "200247",
+    "description": "KABUPATEN MALUKU TENGGARA",
+    "parentCode": "100019"
+  },
+  {
+    "code": "200248",
+    "description": "KABUPATEN MALUKU TENGGARA BARAT",
+    "parentCode": "100019"
+  },
+  {
+    "code": "200249",
+    "description": "KABUPATEN SERAM BAGIAN BARAT",
+    "parentCode": "100019"
+  },
+  {
+    "code": "200250",
+    "description": "KABUPATEN SERAM BAGIAN TIMUR",
+    "parentCode": "100019"
+  },
+  {
+    "code": "200251",
+    "description": "KOTA TUAL",
+    "parentCode": "100019"
+  },
+  {
+    "code": "200252",
+    "description": "KABUPATEN HALMAHERA BARAT",
+    "parentCode": "100020"
+  },
+  {
+    "code": "200253",
+    "description": "KABUPATEN HALMAHERA SELATAN",
+    "parentCode": "100020"
+  },
+  {
+    "code": "200254",
+    "description": "KABUPATEN HALMAHERA TENGAH",
+    "parentCode": "100020"
+  },
+  {
+    "code": "200255",
+    "description": "KABUPATEN HALMAHERA TIMUR",
+    "parentCode": "100020"
+  },
+  {
+    "code": "200256",
+    "description": "KABUPATEN HALMAHERA UTARA",
+    "parentCode": "100020"
+  },
+  {
+    "code": "200257",
+    "description": "KABUPATEN KEPULAUAN SULA",
+    "parentCode": "100020"
+  },
+  {
+    "code": "200258",
+    "description": "KABUPATEN PULAU MOROTAI",
+    "parentCode": "100020"
+  },
+  {
+    "code": "200259",
+    "description": "KABUPATEN PULAU TALIABU",
+    "parentCode": "100020"
+  },
+  {
+    "code": "200260",
+    "description": "KOTA TERNATE",
+    "parentCode": "100020"
+  },
+  {
+    "code": "200261",
+    "description": "KOTA TIDORE KEPULAUAN",
+    "parentCode": "100020"
+  },
+  {
+    "code": "200262",
+    "description": "KABUPATEN ACEH BARAT",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200263",
+    "description": "KABUPATEN ACEH BARAT DAYA",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200264",
+    "description": "KABUPATEN ACEH BESAR",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200265",
+    "description": "KABUPATEN ACEH JAYA",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200266",
+    "description": "KABUPATEN ACEH SELATAN",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200267",
+    "description": "KABUPATEN ACEH SINGKIL",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200268",
+    "description": "KABUPATEN ACEH TAMIANG",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200269",
+    "description": "KABUPATEN ACEH TENGAH",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200270",
+    "description": "KABUPATEN ACEH TENGGARA",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200271",
+    "description": "KABUPATEN ACEH TIMUR",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200272",
+    "description": "KABUPATEN ACEH UTARA",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200273",
+    "description": "KOTA BANDA ACEH",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200274",
+    "description": "KABUPATEN BENER MERIAH",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200275",
+    "description": "KABUPATEN BIREUEN",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200276",
+    "description": "KABUPATEN GAYO LUES",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200277",
+    "description": "KOTA LHOKSEUMAWE",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200278",
+    "description": "KABUPATEN NAGAN RAYA",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200279",
+    "description": "KABUPATEN PIDIE",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200280",
+    "description": "KABUPATEN PIDIE JAYA",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200281",
+    "description": "KOTA SABANG",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200282",
+    "description": "KABUPATEN SIMEULUE",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200283",
+    "description": "KOTA SUBULUSSALAM",
+    "parentCode": "100021"
+  },
+  {
+    "code": "200284",
+    "description": "KOTA BIMA",
+    "parentCode": "100022"
+  },
+  {
+    "code": "200285",
+    "description": "KABUPATEN BIMA",
+    "parentCode": "100022"
+  },
+  {
+    "code": "200286",
+    "description": "KABUPATEN DOMPU",
+    "parentCode": "100022"
+  },
+  {
+    "code": "200287",
+    "description": "KABUPATEN LOMBOK BARAT",
+    "parentCode": "100022"
+  },
+  {
+    "code": "200288",
+    "description": "KABUPATEN LOMBOK TENGAH",
+    "parentCode": "100022"
+  },
+  {
+    "code": "200289",
+    "description": "KABUPATEN LOMBOK TIMUR",
+    "parentCode": "100022"
+  },
+  {
+    "code": "200290",
+    "description": "KABUPATEN LOMBOK UTARA",
+    "parentCode": "100022"
+  },
+  {
+    "code": "200291",
+    "description": "KOTA MATARAM",
+    "parentCode": "100022"
+  },
+  {
+    "code": "200292",
+    "description": "KABUPATEN SUMBAWA",
+    "parentCode": "100022"
+  },
+  {
+    "code": "200293",
+    "description": "KABUPATEN SUMBAWA BARAT",
+    "parentCode": "100022"
+  },
+  {
+    "code": "200294",
+    "description": "KABUPATEN ALOR",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200295",
+    "description": "KABUPATEN BELU",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200296",
+    "description": "KABUPATEN ENDE",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200297",
+    "description": "KABUPATEN FLORES TIMUR",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200298",
+    "description": "KOTA KUPANG",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200299",
+    "description": "KABUPATEN KUPANG",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200300",
+    "description": "KABUPATEN LEMBATA",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200301",
+    "description": "KABUPATEN MALAKA",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200302",
+    "description": "KABUPATEN MANGGARAI",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200303",
+    "description": "KABUPATEN MANGGARAI BARAT",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200304",
+    "description": "KABUPATEN MANGGARAI TIMUR",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200305",
+    "description": "KABUPATEN NAGEKEO",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200306",
+    "description": "KABUPATEN NGADA",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200307",
+    "description": "KABUPATEN ROTE NDAO",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200308",
+    "description": "KABUPATEN SABU RAIJUA",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200309",
+    "description": "KABUPATEN SIKKA",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200310",
+    "description": "KABUPATEN SUMBA BARAT",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200311",
+    "description": "KABUPATEN SUMBA BARAT DAYA",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200312",
+    "description": "KABUPATEN SUMBA TENGAH",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200313",
+    "description": "KABUPATEN SUMBA TIMUR",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200314",
+    "description": "KABUPATEN TIMOR TENGAH SELATAN",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200315",
+    "description": "KABUPATEN TIMOR TENGAH UTARA",
+    "parentCode": "100023"
+  },
+  {
+    "code": "200316",
+    "description": "KABUPATEN ASMAT",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200317",
+    "description": "KABUPATEN BIAK NUMFOR",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200318",
+    "description": "KABUPATEN BOVEN DIGOEL",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200319",
+    "description": "KABUPATEN DEIYAI",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200320",
+    "description": "KABUPATEN DOGIYAI",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200321",
+    "description": "KABUPATEN INTAN JAYA",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200322",
+    "description": "KOTA JAYAPURA",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200323",
+    "description": "KABUPATEN JAYAPURA",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200324",
+    "description": "KABUPATEN JAYAWIJAYA",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200325",
+    "description": "KABUPATEN KEEROM",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200326",
+    "description": "KABUPATEN KEPULAUAN YAPEN",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200327",
+    "description": "KABUPATEN LANNY JAYA",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200328",
+    "description": "KABUPATEN MAMBERAMO RAYA",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200329",
+    "description": "KABUPATEN MAMBERAMO TENGAH",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200330",
+    "description": "KABUPATEN MAPPI",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200331",
+    "description": "KABUPATEN MERAUKE",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200332",
+    "description": "KABUPATEN MIMIKA",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200333",
+    "description": "KABUPATEN NABIRE",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200334",
+    "description": "KABUPATEN NDUGA",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200335",
+    "description": "KABUPATEN PANIAI",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200336",
+    "description": "KABUPATEN PEGUNUNGAN BINTANG",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200337",
+    "description": "KABUPATEN PUNCAK",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200338",
+    "description": "KABUPATEN PUNCAK JAYA",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200339",
+    "description": "KABUPATEN SARMI",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200340",
+    "description": "KABUPATEN SUPIORI",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200341",
+    "description": "KABUPATEN TOLIKARA",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200342",
+    "description": "KABUPATEN WAROPEN",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200343",
+    "description": "KABUPATEN YAHUKIMO",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200344",
+    "description": "KABUPATEN YALIMO",
+    "parentCode": "100024"
+  },
+  {
+    "code": "200345",
+    "description": "KABUPATEN FAKFAK",
+    "parentCode": "100025"
+  },
+  {
+    "code": "200346",
+    "description": "KABUPATEN KAIMANA",
+    "parentCode": "100025"
+  },
+  {
+    "code": "200347",
+    "description": "KABUPATEN MANOKWARI",
+    "parentCode": "100025"
+  },
+  {
+    "code": "200348",
+    "description": "KABUPATEN MANOKWARI SELATAN",
+    "parentCode": "100025"
+  },
+  {
+    "code": "200349",
+    "description": "KABUPATEN MAYBRAT",
+    "parentCode": "100025"
+  },
+  {
+    "code": "200350",
+    "description": "KABUPATEN PEGUNUNGAN ARFAK",
+    "parentCode": "100025"
+  },
+  {
+    "code": "200351",
+    "description": "KABUPATEN RAJA AMPAT",
+    "parentCode": "100025"
+  },
+  {
+    "code": "200352",
+    "description": "KOTA SORONG",
+    "parentCode": "100025"
+  },
+  {
+    "code": "200353",
+    "description": "KABUPATEN SORONG",
+    "parentCode": "100025"
+  },
+  {
+    "code": "200354",
+    "description": "KABUPATEN SORONG SELATAN",
+    "parentCode": "100025"
+  },
+  {
+    "code": "200355",
+    "description": "KABUPATEN TAMBRAUW",
+    "parentCode": "100025"
+  },
+  {
+    "code": "200356",
+    "description": "KABUPATEN TELUK BINTUNI",
+    "parentCode": "100025"
+  },
+  {
+    "code": "200357",
+    "description": "KABUPATEN TELUK WONDAMA",
+    "parentCode": "100025"
+  },
+  {
+    "code": "200358",
+    "description": "KABUPATEN BENGKALIS",
+    "parentCode": "100026"
+  },
+  {
+    "code": "200359",
+    "description": "KOTA DUMAI",
+    "parentCode": "100026"
+  },
+  {
+    "code": "200360",
+    "description": "KABUPATEN INDRAGIRI HILIR",
+    "parentCode": "100026"
+  },
+  {
+    "code": "200361",
+    "description": "KABUPATEN INDRAGIRI HULU",
+    "parentCode": "100026"
+  },
+  {
+    "code": "200362",
+    "description": "KABUPATEN KAMPAR",
+    "parentCode": "100026"
+  },
+  {
+    "code": "200363",
+    "description": "KABUPATEN KEPULAUAN MERANTI",
+    "parentCode": "100026"
+  },
+  {
+    "code": "200364",
+    "description": "KABUPATEN KUANTAN SINGINGI",
+    "parentCode": "100026"
+  },
+  {
+    "code": "200365",
+    "description": "KOTA PEKANBARU",
+    "parentCode": "100026"
+  },
+  {
+    "code": "200366",
+    "description": "KABUPATEN PELALAWAN",
+    "parentCode": "100026"
+  },
+  {
+    "code": "200367",
+    "description": "KABUPATEN ROKAN HILIR",
+    "parentCode": "100026"
+  },
+  {
+    "code": "200368",
+    "description": "KABUPATEN ROKAN HULU",
+    "parentCode": "100026"
+  },
+  {
+    "code": "200369",
+    "description": "KABUPATEN SIAK",
+    "parentCode": "100026"
+  },
+  {
+    "code": "200370",
+    "description": "KABUPATEN MAJENE",
+    "parentCode": "100027"
+  },
+  {
+    "code": "200371",
+    "description": "KABUPATEN MAMASA",
+    "parentCode": "100027"
+  },
+  {
+    "code": "200372",
+    "description": "KABUPATEN MAMUJU",
+    "parentCode": "100027"
+  },
+  {
+    "code": "200373",
+    "description": "KABUPATEN MAMUJU TENGAH",
+    "parentCode": "100027"
+  },
+  {
+    "code": "200374",
+    "description": "KABUPATEN MAMUJU UTARA",
+    "parentCode": "100027"
+  },
+  {
+    "code": "200375",
+    "description": "KABUPATEN POLEWALI MANDAR",
+    "parentCode": "100027"
+  },
+  {
+    "code": "200376",
+    "description": "KABUPATEN BANTAENG",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200377",
+    "description": "KABUPATEN BARRU",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200378",
+    "description": "KABUPATEN BONE",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200379",
+    "description": "KABUPATEN BULUKUMBA",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200380",
+    "description": "KABUPATEN ENREKANG",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200381",
+    "description": "KABUPATEN GOWA",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200382",
+    "description": "KABUPATEN JENEPONTO",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200383",
+    "description": "KABUPATEN KEPULAUAN SELAYAR",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200384",
+    "description": "KABUPATEN LUWU",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200385",
+    "description": "KABUPATEN LUWU TIMUR",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200386",
+    "description": "KABUPATEN LUWU UTARA",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200387",
+    "description": "KOTA MAKASSAR",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200388",
+    "description": "KABUPATEN MAROS",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200389",
+    "description": "KOTA PALOPO",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200390",
+    "description": "KABUPATEN PANGKAJENE KEPULAUAN",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200391",
+    "description": "KOTA PAREPARE",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200392",
+    "description": "KABUPATEN PINRANG",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200393",
+    "description": "KABUPATEN SIDENRENG RAPPANG",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200394",
+    "description": "KABUPATEN SINJAI",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200395",
+    "description": "KABUPATEN SOPPENG",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200396",
+    "description": "KABUPATEN TAKALAR",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200397",
+    "description": "KABUPATEN TANA TORAJA",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200398",
+    "description": "KABUPATEN TORAJA UTARA",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200399",
+    "description": "KABUPATEN WAJO",
+    "parentCode": "100028"
+  },
+  {
+    "code": "200400",
+    "description": "KABUPATEN BANGGAI",
+    "parentCode": "100029"
+  },
+  {
+    "code": "200401",
+    "description": "KABUPATEN BANGGAI KEPULAUAN",
+    "parentCode": "100029"
+  },
+  {
+    "code": "200402",
+    "description": "KABUPATEN BANGGAI LAUT",
+    "parentCode": "100029"
+  },
+  {
+    "code": "200403",
+    "description": "KABUPATEN BUOL",
+    "parentCode": "100029"
+  },
+  {
+    "code": "200404",
+    "description": "KABUPATEN DONGGALA",
+    "parentCode": "100029"
+  },
+  {
+    "code": "200405",
+    "description": "KABUPATEN MOROWALI",
+    "parentCode": "100029"
+  },
+  {
+    "code": "200406",
+    "description": "KABUPATEN MOROWALI UTARA",
+    "parentCode": "100029"
+  },
+  {
+    "code": "200407",
+    "description": "KOTA PALU",
+    "parentCode": "100029"
+  },
+  {
+    "code": "200408",
+    "description": "KABUPATEN PARIGI MOUTONG",
+    "parentCode": "100029"
+  },
+  {
+    "code": "200409",
+    "description": "KABUPATEN POSO",
+    "parentCode": "100029"
+  },
+  {
+    "code": "200410",
+    "description": "KABUPATEN SIGI",
+    "parentCode": "100029"
+  },
+  {
+    "code": "200411",
+    "description": "KABUPATEN TOJO UNA-UNA",
+    "parentCode": "100029"
+  },
+  {
+    "code": "200412",
+    "description": "KABUPATEN TOLI-TOLI",
+    "parentCode": "100029"
+  },
+  {
+    "code": "200413",
+    "description": "KOTA BAU-BAU",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200414",
+    "description": "KABUPATEN BOMBANA",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200415",
+    "description": "KABUPATEN BUTON",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200416",
+    "description": "KABUPATEN BUTON SELATAN",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200417",
+    "description": "KABUPATEN BUTON TENGAH",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200418",
+    "description": "KABUPATEN BUTON UTARA",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200419",
+    "description": "KOTA KENDARI",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200420",
+    "description": "KABUPATEN KOLAKA",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200421",
+    "description": "KABUPATEN KOLAKA TIMUR",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200422",
+    "description": "KABUPATEN KOLAKA UTARA",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200423",
+    "description": "KABUPATEN KONAWE",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200424",
+    "description": "KABUPATEN KONAWE KEPULAUAN",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200425",
+    "description": "KABUPATEN KONAWE SELATAN",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200426",
+    "description": "KABUPATEN KONAWE UTARA",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200427",
+    "description": "KABUPATEN MUNA",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200428",
+    "description": "KABUPATEN MUNA BARAT",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200429",
+    "description": "KABUPATEN WAKATOBI",
+    "parentCode": "100030"
+  },
+  {
+    "code": "200430",
+    "description": "KOTA BITUNG",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200431",
+    "description": "KABUPATEN BOLAANG MONGONDOW",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200432",
+    "description": "KABUPATEN BOLAANG MONGONDOW SELATAN",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200433",
+    "description": "KABUPATEN BOLAANG MONGONDOW TIMUR",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200434",
+    "description": "KABUPATEN BOLAANG MONGONDOW UTARA",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200435",
+    "description": "KABUPATEN KEPULAUAN SANGIHE",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200436",
+    "description": "KABUPATEN KEPULAUAN SIAU TAGULANDANG BIARO",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200437",
+    "description": "KABUPATEN KEPULAUAN TALAUD",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200438",
+    "description": "KOTA KOTAMOBAGU",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200439",
+    "description": "KOTA MANADO",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200440",
+    "description": "KABUPATEN MINAHASA",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200441",
+    "description": "KABUPATEN MINAHASA SELATAN",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200442",
+    "description": "KABUPATEN MINAHASA TENGGARA",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200443",
+    "description": "KABUPATEN MINAHASA UTARA",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200444",
+    "description": "KOTA TOMOHON",
+    "parentCode": "100031"
+  },
+  {
+    "code": "200445",
+    "description": "KABUPATEN AGAM",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200446",
+    "description": "KOTA BUKITTINGGI",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200447",
+    "description": "KABUPATEN DHARMASRAYA",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200448",
+    "description": "KABUPATEN KEPULAUAN MENTAWAI",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200449",
+    "description": "KABUPATEN LIMA PULUH KOTA",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200450",
+    "description": "KOTA PADANG",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200451",
+    "description": "KOTA PADANG PANJANG",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200452",
+    "description": "KABUPATEN PADANG PARIAMAN",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200453",
+    "description": "KOTA PARIAMAN",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200454",
+    "description": "KABUPATEN PASAMAN",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200455",
+    "description": "KABUPATEN PASAMAN BARAT",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200456",
+    "description": "KOTA PAYAKUMBUH",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200457",
+    "description": "KABUPATEN PESISIR SELATAN",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200458",
+    "description": "KOTA SAWAH LUNTO",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200459",
+    "description": "KABUPATEN SIJUNJUNG",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200460",
+    "description": "KOTA SOLOK",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200461",
+    "description": "KABUPATEN SOLOK",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200462",
+    "description": "KABUPATEN SOLOK SELATAN",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200463",
+    "description": "KABUPATEN TANAH DATAR",
+    "parentCode": "100032"
+  },
+  {
+    "code": "200464",
+    "description": "KABUPATEN BANYUASIN",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200465",
+    "description": "KABUPATEN EMPAT LAWANG",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200466",
+    "description": "KABUPATEN LAHAT",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200467",
+    "description": "KOTA LUBUK LINGGAU",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200468",
+    "description": "KABUPATEN MUARA ENIM",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200469",
+    "description": "KABUPATEN MUSI BANYUASIN",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200470",
+    "description": "KABUPATEN MUSI RAWAS",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200471",
+    "description": "KABUPATEN MUSI RAWAS UTARA",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200472",
+    "description": "KABUPATEN OGAN ILIR",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200473",
+    "description": "KABUPATEN OGAN KOMERING ILIR",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200474",
+    "description": "KABUPATEN OGAN KOMERING ULU",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200475",
+    "description": "KABUPATEN OGAN KOMERING ULU SELATAN",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200476",
+    "description": "KABUPATEN OGAN KOMERING ULU TIMUR",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200477",
+    "description": "KOTA PAGAR ALAM",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200478",
+    "description": "KOTA PALEMBANG",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200479",
+    "description": "KABUPATEN PENUKAL ABAB LEMATANG ILIR",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200480",
+    "description": "KOTA PRABUMULIH",
+    "parentCode": "100033"
+  },
+  {
+    "code": "200481",
+    "description": "KABUPATEN ASAHAN",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200482",
+    "description": "KABUPATEN BATU BARA",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200483",
+    "description": "KOTA BINJAI",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200484",
+    "description": "KABUPATEN DAIRI",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200485",
+    "description": "KABUPATEN DELI SERDANG",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200486",
+    "description": "KOTA GUNUNGSITOLI",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200487",
+    "description": "KABUPATEN HUMBANG HASUNDUTAN",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200488",
+    "description": "KABUPATEN KARO",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200489",
+    "description": "KABUPATEN LABUHANBATU",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200490",
+    "description": "KABUPATEN LABUHANBATU SELATAN",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200491",
+    "description": "KABUPATEN LABUHANBATU UTARA",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200492",
+    "description": "KABUPATEN LANGKAT",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200493",
+    "description": "KABUPATEN MANDAILING NATAL",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200494",
+    "description": "KOTA MEDAN",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200495",
+    "description": "KABUPATEN NIAS",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200496",
+    "description": "KABUPATEN NIAS BARAT",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200497",
+    "description": "KABUPATEN NIAS SELATAN",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200498",
+    "description": "KABUPATEN NIAS UTARA",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200499",
+    "description": "KABUPATEN PADANG LAWAS",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200500",
+    "description": "KABUPATEN PADANG LAWAS UTARA",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200501",
+    "description": "KOTA PADANG SIDEMPUAN",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200502",
+    "description": "KABUPATEN PAKPAK BHARAT",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200503",
+    "description": "KOTA PEMATANG SIANTAR",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200504",
+    "description": "KABUPATEN SAMOSIR",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200505",
+    "description": "KABUPATEN SERDANG BEDAGAI",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200506",
+    "description": "KOTA SIBOLGA",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200507",
+    "description": "KABUPATEN SIMALUNGUN",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200508",
+    "description": "KOTA TANJUNG BALAI",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200509",
+    "description": "KABUPATEN TAPANULI SELATAN",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200510",
+    "description": "KABUPATEN TAPANULI TENGAH",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200511",
+    "description": "KABUPATEN TAPANULI UTARA",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200512",
+    "description": "KOTA TEBING TINGGI",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200513",
+    "description": "KABUPATEN TOBA SAMOSIR",
+    "parentCode": "100034"
+  },
+  {
+    "code": "200040",
+    "description": "JAKARTA SELATAN",
+    "parentCode": "100006"
+  },
+  {
+    "code": "200041",
+    "description": "JAKARTA UTARA",
+    "parentCode": "100006"
+  },
+  {
+    "code": "200044",
+    "description": "JAKARTA TIMUR",
+    "parentCode": "100006"
+  },
+  {
+    "code": "200283A",
+    "description": "KOTA LANGSA",
+    "parentCode": "100021"
+  }
+]

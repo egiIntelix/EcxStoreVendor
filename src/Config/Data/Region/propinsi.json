@@ -1,0 +1,138 @@
+[
+  {
+    "code": "100001",
+    "description": "PROVINSI BALI"
+  },
+  {
+    "code": "100002",
+    "description": "PROVINSI BANGKA BELITUNG"
+  },
+  {
+    "code": "100003",
+    "description": "PROVINSI BANTEN"
+  },
+  {
+    "code": "100004",
+    "description": "PROVINSI BENGKULU"
+  },
+  {
+    "code": "100005",
+    "description": "PROVINSI DI YOGYAKARTA"
+  },
+  {
+    "code": "100006",
+    "description": "PROVINSI DKI JAKARTA"
+  },
+  {
+    "code": "100007",
+    "description": "PROVINSI GORONTALO"
+  },
+  {
+    "code": "100008",
+    "description": "PROVINSI JAMBI"
+  },
+  {
+    "code": "100009",
+    "description": "PROVINSI JAWA BARAT"
+  },
+  {
+    "code": "100010",
+    "description": "PROVINSI JAWA TENGAH"
+  },
+  {
+    "code": "100011",
+    "description": "PROVINSI JAWA TIMUR"
+  },
+  {
+    "code": "100012",
+    "description": "PROVINSI KALIMANTAN BARAT"
+  },
+  {
+    "code": "100013",
+    "description": "PROVINSI KALIMANTAN SELATAN"
+  },
+  {
+    "code": "100014",
+    "description": "PROVINSI KALIMANTAN TENGAH"
+  },
+  {
+    "code": "100015",
+    "description": "PROVINSI KALIMANTAN TIMUR"
+  },
+  {
+    "code": "100016",
+    "description": "PROVINSI KALIMANTAN UTARA"
+  },
+  {
+    "code": "100017",
+    "description": "PROVINSI KEPULAUAN RIAU"
+  },
+  {
+    "code": "100018",
+    "description": "PROVINSI LAMPUNG"
+  },
+  {
+    "code": "100019",
+    "description": "PROVINSI MALUKU"
+  },
+  {
+    "code": "100020",
+    "description": "PROVINSI MALUKU UTARA"
+  },
+  {
+    "code": "100021",
+    "description": "PROVINSI NANGGROE ACEH DARUSSALAM"
+  },
+  {
+    "code": "100022",
+    "description": "PROVINSI NUSA TENGGARA BARAT"
+  },
+  {
+    "code": "100023",
+    "description": "PROVINSI NUSA TENGGARA TIMUR"
+  },
+  {
+    "code": "100024",
+    "description": "PROVINSI PAPUA"
+  },
+  {
+    "code": "100025",
+    "description": "PROVINSI PAPUA BARAT"
+  },
+  {
+    "code": "100026",
+    "description": "PROVINSI RIAU"
+  },
+  {
+    "code": "100027",
+    "description": "PROVINSI SULAWESI BARAT"
+  },
+  {
+    "code": "100028",
+    "description": "PROVINSI SULAWESI SELATAN"
+  },
+  {
+    "code": "100029",
+    "description": "PROVINSI SULAWESI TENGAH"
+  },
+  {
+    "code": "100030",
+    "description": "PROVINSI SULAWESI TENGGARA"
+  },
+  {
+    "code": "100031",
+    "description": "PROVINSI SULAWESI UTARA"
+  },
+  {
+    "code": "100032",
+    "description": "PROVINSI SUMATERA BARAT"
+  },
+  {
+    "code": "100033",
+    "description": "PROVINSI SUMATERA SELATAN"
+  },
+  {
+    "code": "100034",
+    "description": "PROVINSI SUMATERA UTARA"
+  }
+]

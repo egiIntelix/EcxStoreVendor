@@ -1,0 +1,60 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            //component
+            "@Atoms": [
+                "./src/Components/Atoms/*"
+            ],
+            "@Images": [
+                "./src/Components/Atoms/Images/*"
+            ],
+            "@Molecules": [
+                "./src/Components/Molecules/*"
+            ],
+            "@Organisms": [
+                "./src/Components/Organisms/*"
+            ],
+            //config
+            "@Config": [
+                "./src/Config/*"
+            ],
+            "@CustomHooks": [
+                "./src/Config/CustomHooks/*"
+            ],
+            "@Data": [
+                "./src/Config/Data/*"
+            ],
+            // "@Redux": [
+            //     "./src/Config/Redux/*"
+            // ],
+            // "@Actions": [
+            //     "./src/Config/Redux/actions/*"
+            // ],
+            // "@Reducers": [
+            //     "./src/Config/Redux/reducers/*"
+            // ],
+            // "@Store": [
+            //     "./src/Config/Redux/store/*"
+            // ],
+            "@RootNavigation": [
+                "./src/Config/RootNavigation/*"
+            ],
+            //Container
+            "@Pages": [
+                "./src/Container/Pages/*"
+            ],
+            "@Templates": [
+                "./src/Container/Templates/*"
+            ],
+            //utils
+            "@Utils": [
+                "./src/Utils/*"
+            ],
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}

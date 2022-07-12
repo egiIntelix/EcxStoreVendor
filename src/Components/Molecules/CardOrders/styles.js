@@ -32,4 +32,13 @@ export default StyleSheet.create({
         textDecorationLine: 'line-through', 
         textDecorationStyle: 'solid' 
     }),
+    containerInfoTrx: {
+        flexDirection: 'row', 
+        justifyContent: 'space-between'
+    },
+    shippingAddr: { 
+        flexDirection: 'row', 
+        alignItems: 'center', 
+        marginTop: 8 
+    }
 })

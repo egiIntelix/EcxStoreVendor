@@ -1,4 +1,4 @@
-export default [
+export default (navigation) => [
     {
         title: 'Media',
         iconName: 'folder-image',
@@ -7,7 +7,7 @@ export default [
     {
         title: 'Artikel',
         iconName: 'newspaper-variant-outline',
-        navigate: ''
+        onPress: () => navigation.navigate("Artikel")
     },
     {
         title: 'Pembayaran',

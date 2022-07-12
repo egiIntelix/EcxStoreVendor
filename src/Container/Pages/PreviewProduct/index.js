@@ -1,6 +1,7 @@
 import React, { memo, useEffect, useState } from "react";
 import { View, Text, ScrollView, TouchableOpacity } from "react-native";
 import { useTheme } from 'react-native-paper';
+import moment from "moment";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import { PageWrapper, MyImage, MyText, Splitter } from "@Atoms";
 import { ICON_EMPTY_IMAGE, ICON_SHOP } from "@Images";
@@ -13,11 +14,23 @@ import styles, { width } from "./styles";
 export default memo(({ navigation, navBarState, route: { params } }) => {
     const { colors } = useTheme();
     const [fullDesc, setFulldesc] = useState(false);
-    const { image, price, name, regular_price, sale_price, total_sales, categories, description, short_description } = params;
+    const { 
+        image, 
+        price, 
+        name, 
+        regular_price, 
+        sale_price, 
+        total_sales, 
+        categories, 
+        description, 
+        short_description,
+        store_name,
+        store_address,
+        store_registered,
+        average_rating
+    } = params;
     const _calcDisc = (regular_price, sale_price) => (100 - (parseInt(sale_price)/parseInt(regular_price)*100)).toString();
     useEffect(() => {
-        log(params);
-        _calcDisc(regular_price, sale_price)
         navBarState(false);
         return (() => navBarState(true))
     })
@@ -62,23 +75,23 @@ export default memo(({ navigation, navBarState, route: { params } }) => {
                         <View style={styles.containerStoreInfo}>
                             <MyImage source={ICON_SHOP} width={50} height={50} resizeMode={'contain'} />
                             <View style={styles.storeInfo}>
-                                <MyText large bold>Nama Toko</MyText>
-                                <MyText color={colors.gray}>Kota Toko</MyText>
+                                <MyText large bold>{store_name}</MyText>
+                                <MyText color={colors.gray}>{store_address['city']}</MyText>
                             </View>
                         </View>
                         <View style={styles.detailStoreInfo}>
                             <Icon name={"star-outline"} size={20} style={styles.iconStoreInfo} />
-                            <MyText bold>4.8</MyText>
-                            <MyText> rating toko</MyText>
+                            <MyText bold>{average_rating}</MyText>
+                            <MyText> rating produk</MyText>
                         </View>
                         <View style={styles.detailStoreInfo}>
                             <Icon name={"timer-outline"} size={20} style={styles.iconStoreInfo} />
-                            <MyText bold>&plusmn; 3 Jam</MyText>
+                            <MyText bold>&plusmn; ? Jam</MyText>
                             <MyText> pesanan diproses</MyText>
                         </View>
                         <View style={styles.detailStoreInfo}>
                             <Icon name={"calendar-month"} size={20} style={styles.iconStoreInfo} />
-                            <MyText bold>Jun 2022</MyText>
+                            <MyText bold>{moment(store_registered).format("MMM YYYY")}</MyText>
                             <MyText> mulai jualan</MyText>
                         </View>
                     </View>

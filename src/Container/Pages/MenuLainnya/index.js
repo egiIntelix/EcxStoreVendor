@@ -26,7 +26,7 @@ export default memo(({navigation}) => {
                     <Icon name={"chevron-right"} size={35} color={colors.gray} />
                 </View>
                 <View style={styles.menuContainer(colors.white)}>
-                    <Menu data={LIST_MENU} header={() => <MyText xLarge bold>Menu Lainnya</MyText>} />
+                    <Menu data={LIST_MENU(navigation)} header={() => <MyText xLarge bold>Menu Lainnya</MyText>} />
                     <Splitter xLarge color={colors.lightGray} />
                     <TouchableOpacity activeOpacity={.8} style={styles.menuPengaturan} onPress={() => navigation.navigate("Pengaturan")}>
                         <View>

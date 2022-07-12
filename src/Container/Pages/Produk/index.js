@@ -20,12 +20,24 @@ const data = [
         stock_quantity: '10',
         status: 'publish',
         total_sales: '10',
+        average_rating: "0",
         image: [
             "https://app74.ecentrix.net/ecx_store/wp-content/uploads/2022/06/9121c41e80bf4534c11da52988ff1145_0.jpg",
             1792,
             1792,
             false
-        ]
+        ],
+        store_id: "18",
+        store_name: "test nama toko",
+        store_address: {
+            street_1: "Jalan test store addr 1",
+            street_2: "Jalan test store addr 2",
+            city: "Bandung",
+            zip: "40114",
+            country: "ID",
+            state: "JB"
+        },
+        store_registered: "2022-06-15 06:21:06"
     },
     {
         name: 'Masker',
@@ -38,7 +50,19 @@ const data = [
         stock_quantity: null,
         status: 'archived',
         total_sales: '0',
-        image: ""
+        average_rating: "0",
+        image: "",
+        store_id: "18",
+        store_name: "test nama toko",
+        store_address: {
+            street_1: "Jalan test store addr 1",
+            street_2: "Jalan test store addr 2",
+            city: "Bandung",
+            zip: "40114",
+            country: "ID",
+            state: "JB"
+        },
+        store_registered: "2022-06-15 06:21:06"
     },
 ];
 export default memo((props) => {

@@ -17,7 +17,7 @@ export default ({ data, navigation }) => {
             data={data}
             keyExtractor={() => UUID()}
             renderItem={({ item }) => (
-                <CardOrders data={item} onPress={() => navigation.navigate("DetailPesanan", item)}/>
+                <CardOrders data={item} onPress={() => navigation.navigate("DetailPesanan")}/>
             )}
         />
         || data && <View style={styles.emptyProduct}>

@@ -69,7 +69,19 @@
         "reviews_allowed": false,
         "rating_counts": [],
         "average_rating": "0",
-        "review_count": 0
+        "review_count": 0,
+        "store_id": "18",
+        "store_name": "test nama toko",
+        "store_url": "https:\/\/app74.ecentrix.net\/ecx_store\/store\/test-nama-toko\/",
+        "store_address": {
+            "street_1": "Jalan test store addr 1",
+            "street_2": "Jalan test store addr 2",
+            "city": "Bandung",
+            "zip": "40114",
+            "country": "ID",
+            "state": "JB"
+        },
+        "store_registered": "2022-06-15 06:21:06"
     },
     {
         "id": 318,
@@ -82,11 +94,11 @@
             "timezone": "+00:00"
         },
         "date_modified": {
-            "date": "2022-06-20 07:14:51.000000",
+            "date": "2022-06-30 09:42:08.000000",
             "timezone_type": 1,
             "timezone": "+00:00"
         },
-        "status": "publish",
+        "status": "archived",
         "featured": false,
         "catalog_visibility": "visible",
         "description": "Deskripsi produk gambar",
@@ -136,7 +148,19 @@
         "reviews_allowed": false,
         "rating_counts": [],
         "average_rating": "0",
-        "review_count": 0
+        "review_count": 0,
+        "store_id": "18",
+        "store_name": "test nama toko",
+        "store_url": "https:\/\/app74.ecentrix.net\/ecx_store\/store\/test-nama-toko\/",
+        "store_address": {
+            "street_1": "Jalan test store addr 1",
+            "street_2": "Jalan test store addr 2",
+            "city": "Bandung",
+            "zip": "40114",
+            "country": "ID",
+            "state": "JB"
+        },
+        "store_registered": "2022-06-15 06:21:06"
     },
     {
         "id": 312,
@@ -203,7 +227,19 @@
         "reviews_allowed": false,
         "rating_counts": [],
         "average_rating": "0",
-        "review_count": 0
+        "review_count": 0,
+        "store_id": "18",
+        "store_name": "test nama toko",
+        "store_url": "https:\/\/app74.ecentrix.net\/ecx_store\/store\/test-nama-toko\/",
+        "store_address": {
+            "street_1": "Jalan test store addr 1",
+            "street_2": "Jalan test store addr 2",
+            "city": "Bandung",
+            "zip": "40114",
+            "country": "ID",
+            "state": "JB"
+        },
+        "store_registered": "2022-06-15 06:21:06"
     },
     {
         "id": 311,
@@ -270,7 +306,19 @@
         "reviews_allowed": false,
         "rating_counts": [],
         "average_rating": "0",
-        "review_count": 0
+        "review_count": 0,
+        "store_id": "18",
+        "store_name": "test nama toko",
+        "store_url": "https:\/\/app74.ecentrix.net\/ecx_store\/store\/test-nama-toko\/",
+        "store_address": {
+            "street_1": "Jalan test store addr 1",
+            "street_2": "Jalan test store addr 2",
+            "city": "Bandung",
+            "zip": "40114",
+            "country": "ID",
+            "state": "JB"
+        },
+        "store_registered": "2022-06-15 06:21:06"
     },
     {
         "id": 309,
@@ -337,7 +385,19 @@
         "reviews_allowed": true,
         "rating_counts": [],
         "average_rating": "0",
-        "review_count": 0
+        "review_count": 0,
+        "store_id": "18",
+        "store_name": "test nama toko",
+        "store_url": "https:\/\/app74.ecentrix.net\/ecx_store\/store\/test-nama-toko\/",
+        "store_address": {
+            "street_1": "Jalan test store addr 1",
+            "street_2": "Jalan test store addr 2",
+            "city": "Bandung",
+            "zip": "40114",
+            "country": "ID",
+            "state": "JB"
+        },
+        "store_registered": "2022-06-15 06:21:06"
     },
     {
         "id": 307,
@@ -404,6 +464,18 @@
         "reviews_allowed": false,
         "rating_counts": [],
         "average_rating": "0",
-        "review_count": 0
+        "review_count": 0,
+        "store_id": "18",
+        "store_name": "test nama toko",
+        "store_url": "https:\/\/app74.ecentrix.net\/ecx_store\/store\/test-nama-toko\/",
+        "store_address": {
+            "street_1": "Jalan test store addr 1",
+            "street_2": "Jalan test store addr 2",
+            "city": "Bandung",
+            "zip": "40114",
+            "country": "ID",
+            "state": "JB"
+        },
+        "store_registered": "2022-06-15 06:21:06"
     }
 ]

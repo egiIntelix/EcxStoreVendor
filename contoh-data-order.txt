@@ -1,0 +1,116 @@
+[
+    {
+        "customer_id": null,
+        "id": 261,
+        "total": "-25400",
+        "order_date": "2022-06-07 10:37:32",
+        "payment_method_title": null,
+        "payment_method": null,
+        "status": "completed",
+        "shipping_total": "-15000",
+        "billing": null,
+        "shipping": null,
+        "fee": [],
+        "items": [
+            {
+                "id": 91,
+                "name": "Amoxicillin 500 mg",
+                "price": "10400",
+                "qty": -1,
+                "total": "-10400",
+                "image_id": "90",
+                "image": [
+                    "https:\/\/app74.ecentrix.net\/ecx_store\/wp-content\/uploads\/2022\/06\/obat4.png",
+                    467,
+                    413,
+                    false
+                ],
+                "store_id": "2",
+                "store_name": "TokoPertama",
+                "store_url": "https:\/\/app74.ecentrix.net\/ecx_store\/store\/tokopertama\/",
+                "store_address": {
+                    "street_1": "Jalan Belimbing No1",
+                    "street_2": "",
+                    "city": "Bandung",
+                    "zip": "40114",
+                    "country": "ID",
+                    "state": "JB"
+                },
+                "store_registered": "2022-06-02 03:48:23"
+            }
+        ]
+    },
+    {
+        "customer_id": 14,
+        "id": 260,
+        "total": "33900",
+        "order_date": "2022-06-07 10:30:11",
+        "payment_method_title": "Bank Transfer - BCA",
+        "payment_method": "xendit_bcava",
+        "status": "processing",
+        "shipping_total": "15000",
+        "billing": {
+            "first_name": "Asasasas",
+            "last_name": "asasdasd",
+            "company": "",
+            "address_1": "Jalan belimbing no 1",
+            "address_2": "",
+            "city": "Bandung",
+            "state": "JB",
+            "postcode": "40193",
+            "country": "ID",
+            "email": "user1@ecentrix.co.id",
+            "phone": "080091023809421"
+        },
+        "shipping": {
+            "first_name": "Asasasas",
+            "last_name": "asasdasd",
+            "company": "",
+            "address_1": "Jalan belimbing no 1",
+            "address_2": "",
+            "city": "Bandung",
+            "state": "JB",
+            "postcode": "40193",
+            "country": "ID",
+            "phone": ""
+        },
+        "fee": [
+            {
+                "name": "Bank Transfer - BCA",
+                "total": "4499.9998"
+            },
+            {
+                "name": "Biaya Platform",
+                "total": "4000"
+            }
+        ],
+        "items": [
+            {
+                "id": 91,
+                "name": "Amoxicillin 500 mg",
+                "price": "10400",
+                "qty": 1,
+                "total": "10400",
+                "image_id": "90",
+                "image": [
+                    "https:\/\/app74.ecentrix.net\/ecx_store\/wp-content\/uploads\/2022\/06\/obat4.png",
+                    467,
+                    413,
+                    false
+                ],
+                "store_id": "2",
+                "store_name": "TokoPertama",
+                "store_url": "https:\/\/app74.ecentrix.net\/ecx_store\/store\/tokopertama\/",
+                "store_address": {
+                    "street_1": "Jalan Belimbing No1",
+                    "street_2": "",
+                    "city": "Bandung",
+                    "zip": "40114",
+                    "country": "ID",
+                    "state": "JB"
+                },
+                "store_registered": "2022-06-02 03:48:23"
+            }
+        ]
+    }
+]

@@ -34,7 +34,6 @@ export default memo(({ navigation: { replace } }) => {
             />
             <MyText xLarge bold color={colors.sunShade}>ECX Store</MyText>
             <Spinner isVisible={true} size={30} type={'ThreeBounce'} color={'#F69621'} />
-            <Text>HOLA</Text>
         </View >
     );
 })

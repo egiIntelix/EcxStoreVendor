@@ -1,35 +1,66 @@
-import React, { memo } from 'react';
+import React, { memo, useEffect } from 'react';
 import { Image, ScrollView, View } from 'react-native';
 import { useTheme } from 'react-native-paper';
+import moment from 'moment';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { PageWrapper, MyText, Splitter, MyImage } from '@Atoms';
 import { ICON_EMPTY_IMAGE, ICON_BCA } from '@Images';
 import { Navbar } from '@Organisms';
+import { log } from '@Utils';
 
 import styles from './styles';
 
-export default memo(() => {
+const payment_icon = (name) => {
+    switch (name) {
+        case 'xendit_bcava':
+            return ICON_BCA;
+        default:
+            return null
+    }
+
+}
+export default memo(({ navigation, navBarState, route: { params } }) => {
     const { colors } = useTheme();
+    const {
+        id,
+        order_date,
+        status,
+        payment_method_title,
+        billing: { first_name, last_name, address_1, address_2, city, postcode, email, phone },
+        shipping,
+        items,
+        shipping_total,
+        fee,
+        total,
+        payment_method,
+    } = params;
+    const _totalBarang = items.map(item => parseInt(item.qty)).reduce((partialSum, a) => partialSum + a, 0);
+    const _totalHarga = items.map(item => parseInt(item.total)).reduce((partialSum, a) => partialSum + a, 0);
+    const _paymentIcon = payment_icon(payment_method);
+    useEffect(() => {
+        navBarState(false);
+        return (() => navBarState(true))
+    })
     return (
         <PageWrapper>
             <ScrollView>
                 <View style={styles.container}>
                     <Navbar title={"Detail Pesanan"} />
                     <View style={styles.innerContainer}>
-                        <MyText xxLarge bold>Pesanan #260</MyText>
+                        <MyText xxLarge bold>Pesanan #{id}</MyText>
                         <View style={styles.row}>
                             <MyText style={styles.titleText}>Tanggal Pesanan</MyText>
-                            <MyText style={styles.valueText}>17 Juni 2022 10:30 am</MyText>
+                            <MyText style={styles.valueText}>{moment(order_date).format("DD MMMM YYYY h:mm a")}</MyText>
                         </View>
                         <View style={styles.row}>
                             <MyText style={styles.titleText}>Status Pesanan</MyText>
-                            <MyText style={styles.valueText}>Dana dikembalikan</MyText>
+                            <MyText style={styles.valueText}>{status}</MyText>
                         </View>
                         <View style={styles.row}>
                             <MyText style={styles.titleText}>Pembayaran</MyText>
                             <View style={styles.containerPembayaran}>
-                                <Image source={ICON_BCA} style={styles.iconPembayaran} />
-                                <MyText>BCA Virtual Account</MyText>
+                                {_paymentIcon && <Image source={_paymentIcon} style={styles.iconPembayaran} />}
+                                <MyText>{payment_method_title}</MyText>
                             </View>
                         </View>
                     </View>
@@ -38,64 +69,64 @@ export default memo(() => {
                         <MyText xxLarge bold>Detail Pembayaran</MyText>
                         <View style={styles.row}>
                             <MyText style={styles.titleText}>Nama</MyText>
-                            <MyText style={styles.valueText} bold>Willy Andreas</MyText>
+                            <MyText style={styles.valueText} bold>{`${first_name} ${last_name}`}</MyText>
                         </View>
                         <View style={styles.row}>
                             <MyText style={styles.titleText}>Alamat</MyText>
-                            <MyText style={styles.valueText}>Jalan belimbing No 1 Bandung Jawa Barat 40193</MyText>
+                            <MyText style={styles.valueText}>{`${address_1} ${address_2} ${city} ${postcode}`}</MyText>
                         </View>
                         <View style={styles.row}>
                             <MyText style={styles.titleText}>Email</MyText>
-                            <MyText style={styles.valueText}>willyandreas@gmail.com</MyText>
+                            <MyText style={styles.valueText}>{email}</MyText>
                         </View>
                         <View style={styles.row}>
                             <MyText style={styles.titleText}>Telepon</MyText>
-                            <MyText style={styles.valueText}>081234567890</MyText>
+                            <MyText style={styles.valueText}>{phone}</MyText>
                         </View>
-                        <Splitter style={{marginVertical:8}}  />
+                        <Splitter style={{ marginVertical: 8 }} />
                         <MyText xxLarge bold>Detail Pengiriman</MyText>
                         <View style={styles.row}>
                             <MyText style={styles.titleText}>Nama</MyText>
-                            <MyText style={styles.valueText} bold>Willy Andreas</MyText>
+                            <MyText style={styles.valueText} bold>{`${shipping.first_name} ${shipping.last_name}`}</MyText>
                         </View>
                         <View style={styles.row}>
                             <MyText style={styles.titleText}>Alamat</MyText>
-                            <MyText style={styles.valueText}>Jalan belimbing No 1 Bandung Jawa Barat 40193</MyText>
+                            <MyText style={styles.valueText}>{`${shipping.address_1} ${shipping.address_2} ${shipping.city} ${shipping.postcode}`}</MyText>
                         </View>
                         <View style={styles.row}>
                             <Icon name={'map-marker-outline'} size={25} color={colors.gray} />
-                            <MyText>Cihapit, Bandung Wetan, Bandung, West Java, 40114, Indonesia</MyText>
+                            <MyText>{`${shipping.address_1} ${shipping.address_2} ${shipping.city} ${shipping.postcode}`}</MyText>
                         </View>
                     </View>
-                    <Splitter xxLarge color={colors.lightGray}/>
+                    <Splitter xxLarge color={colors.lightGray} />
                     <View style={styles.innerContainer}>
                         <MyText xxLarge bold>Item Pesanan</MyText>
-                        <View style={styles.row}>
-                            <MyImage source={ICON_EMPTY_IMAGE} width={100} height={100} resizeMode={'contain'} />
-                            <View style={styles.containerProduct}>
-                                <MyText large bold style={styles.titleProduct}>[MOUSON] Masker KF 94 PRO/KN95 PRO</MyText>
-                                <MyText color={colors.gray}>1 x Rp9500</MyText>
+                        {items.map((item, key) =>
+                            <View style={styles.row} key={`${key}-${item.id}`}>
+                                <MyImage source={item.image && { uri: item.image[0] } || ICON_EMPTY_IMAGE} width={100} height={100} resizeMode={'contain'} />
+                                <View style={styles.containerProduct}>
+                                    <MyText large bold style={styles.titleProduct}>{item.name}</MyText>
+                                    <MyText color={colors.gray}>{`${item.qty}x Rp${item.price}`}</MyText>
+                                </View>
                             </View>
-                        </View>
+                        )}
                         <View style={styles.row}>
-                            <MyText style={styles.titleText}>Total Harga (1 Barang)</MyText>
-                            <MyText>Rp9500</MyText>
+                            <MyText style={styles.titleText}>{`Total Harga (${_totalBarang} Barang)`}</MyText>
+                            <MyText>{`Rp${_totalHarga}`}</MyText>
                         </View>
                         <View style={styles.row}>
                             <MyText style={styles.titleText}>Total Ongkos Kirim</MyText>
-                            <MyText>Rp0</MyText>
+                            <MyText>{`Rp${shipping_total}`}</MyText>
                         </View>
-                        <View style={styles.row}>
-                            <MyText style={styles.titleText}>Asuransi</MyText>
-                            <MyText>Rp0</MyText>
-                        </View>
-                        <View style={styles.row}>
-                            <MyText style={styles.titleText}>Biaya Tambahan Penjual</MyText>
-                            <MyText>Rp0</MyText>
-                        </View>
+                        {fee.map((item, key) =>
+                            <View style={styles.row} key={`${key}-${item.name}`}>
+                                <MyText style={styles.titleText}>{item.name}</MyText>
+                                <MyText>{`Rp${item.total}`}</MyText>
+                            </View>
+                        )}
                         <View style={styles.row}>
                             <MyText xxLarge bold style={styles.titleText}>Total</MyText>
-                            <MyText xxLarge bold>Rp9500</MyText>
+                            <MyText xxLarge bold>{`Rp${total}`}</MyText>
                         </View>
 
                     </View>

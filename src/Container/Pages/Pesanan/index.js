@@ -7,7 +7,7 @@ import { log } from "@Utils";
 
 import styles from "./styles";
 
-export default memo(({ navigation }) => {
+export default memo((props) => {
     const { colors } = useTheme();
     return (
         <PageWrapper>
@@ -26,7 +26,7 @@ export default memo(({ navigation }) => {
                         size={25}
                     />}
                 />
-                <ListOrders data={['', '', '']} />
+                <ListOrders data={['', '', '']} {...props} />
             </View>
         </PageWrapper>
     )

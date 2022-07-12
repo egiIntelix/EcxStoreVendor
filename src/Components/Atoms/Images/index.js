@@ -10,7 +10,8 @@ const ICON_MONEY = require('../../../Assets/images/Money2.png');
 const ICON_MONEY_OUTLINE = require('../../../Assets/images/Money.png');
 const ICON_PRODUCT_ORANGE = require('../../../Assets/images/icon-product.png');
 const ICON_RP_ORANGE = require('../../../Assets/images/rp-orange.png');
-const ICON_RP = require('../../../Assets/images/Rp.png')
+const ICON_RP = require('../../../Assets/images/Rp.png');
+const ICON_BCA = require('../../../Assets/images/BCA.png')
 
 export {
     ICON_ECENTRIX,
@@ -26,4 +27,5 @@ export {
     ICON_PRODUCT_ORANGE,
     ICON_RP_ORANGE,
     ICON_RP,
+    ICON_BCA,
 }

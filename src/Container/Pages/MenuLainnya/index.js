@@ -9,7 +9,7 @@ import { Menu } from "@Organisms";
 import styles from "./styles";
 import LIST_MENU from './menu';
 
-export default memo((props) => {
+export default memo(({navigation}) => {
     const { colors } = useTheme()
     return (
         <PageWrapper>
@@ -28,7 +28,7 @@ export default memo((props) => {
                 <View style={styles.menuContainer(colors.white)}>
                     <Menu data={LIST_MENU} header={() => <MyText xLarge bold>Menu Lainnya</MyText>} />
                     <Splitter xLarge color={colors.lightGray} />
-                    <TouchableOpacity activeOpacity={.8} style={styles.menuPengaturan}>
+                    <TouchableOpacity activeOpacity={.8} style={styles.menuPengaturan} onPress={() => navigation.navigate("Pengaturan")}>
                         <View>
                             <MyText xLarge bold>Pengaturan</MyText>
                             <MyText color={colors.gray}>Atur atau ubah pengaturan tokomu</MyText>

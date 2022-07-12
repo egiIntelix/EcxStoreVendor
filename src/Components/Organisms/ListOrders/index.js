@@ -7,7 +7,7 @@ import { UUID } from '@Utils';
 
 import styles from './styles';
 
-export default ({ data }) => {
+export default ({ data, navigation }) => {
     const { colors } = useTheme();
     return (
         data && data.length > 0 &&
@@ -17,7 +17,7 @@ export default ({ data }) => {
             data={data}
             keyExtractor={() => UUID()}
             renderItem={({ item }) => (
-                <CardOrders data={item}/>
+                <CardOrders data={item} onPress={() => navigation.navigate("DetailPesanan")}/>
             )}
         />
         || data && <View style={styles.emptyProduct}>

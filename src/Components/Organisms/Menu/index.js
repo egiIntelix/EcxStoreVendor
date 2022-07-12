@@ -19,7 +19,7 @@ export default ({ data, header }) => {
                         <TouchableOpacity
                             activeOpacity={.8}
                             onPress={onPress}
-                            key={`${key}-${iconName}`}>
+                            key={UUID()}>
                             <View style={styles.listItem(colors.white)}>
                                 {iconName && <Icon name={iconName} size={40} color={colors.black} style={styles.icon} />}
                                 <MyText xLarge {...itemProps}>{title}</MyText>

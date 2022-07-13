@@ -1,23 +1,32 @@
-import React, { memo, useEffect } from "react";
+import React, { memo, useEffect, useRef } from "react";
 import { View, TouchableOpacity } from "react-native";
 import { useTheme, TextInput } from "react-native-paper";
+import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import { PageWrapper } from "@Atoms";
-import { Navbar } from "@Organisms";
+import { Navbar, ListArticle, ManageArticleModal } from "@Organisms";
+import { log } from "@Utils";
 
 import styles from "./styles";
 
-export default memo(({ navigation, navBarState }) => {
+export default memo((props) => {
     const { colors } = useTheme();
+    const refManageArticleModal = useRef(<ManageArticleModal />)
+    const _manageArticle = (data) => refManageArticleModal?.current?.toggle(data)
+
     useEffect(() => {
-        navBarState(false);
-        return(() => {
-            navBarState(true)
+        props.navBarState(false);
+        return (() => {
+            props.navBarState(true)
         })
     })
     return (
         <PageWrapper>
             <View style={styles.container}>
-                <Navbar title={"Artikel"} />
+                <Navbar title={"Artikel"} right={() =>
+                    <TouchableOpacity onPress={() => props.navigation.navigate("TambahArtikel")}>
+                        <Icon name="plus" size={35} color={colors.black} />
+                    </TouchableOpacity>
+                } />
                 <TextInput
                     style={styles.search(colors.white)}
                     mode={'outlined'}
@@ -31,7 +40,9 @@ export default memo(({ navigation, navBarState }) => {
                         size={25}
                     />}
                 />
+                <ListArticle data={['', '', '']} manageArticle={_manageArticle}/>
+                <ManageArticleModal ref={refManageArticleModal} {...props} />
             </View>
-        </PageWrapper>
+        </PageWrapper >
     )
 })

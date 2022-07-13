@@ -8,6 +8,8 @@ import EditStockModal from './EditStockModal';
 import ManageProductModal from './ManageProductModal';
 import ConfirmModal from './ConfirmModal';
 import ListOrders from './ListOrders';
+import ListArticle from './ListArticle';
+import ManageArticleModal from './ManageArticleModal';
 
 export {
     // OffCanvas,
@@ -20,4 +22,6 @@ export {
     ManageProductModal,
     ConfirmModal,
     ListOrders,
+    ListArticle,
+    ManageArticleModal,
 }

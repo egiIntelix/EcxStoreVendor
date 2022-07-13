@@ -1,4 +1,4 @@
-import React, { memo, useRef, useCallback } from "react";
+import React, { memo, useRef } from "react";
 import { View, TouchableOpacity } from "react-native";
 import { TextInput } from 'react-native-paper';
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";

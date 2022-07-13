@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { View, Platform, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import SplashScreen from 'react-native-splash-screen';
@@ -29,6 +28,8 @@ import TambahProduk from './TambahProduk';
 import PreviewProduct from './PreviewProduct';
 import DetailPesanan from './DetailPesanan';
 import Artikel from './Artikel';
+import EditArtikel from './EditArtikel';
+import TambahArtikel from './TambahArtikel';
 
 const Stack = createNativeStackNavigator();
 
@@ -113,6 +114,12 @@ export default stackProps => (
             </Stack.Screen>
             <Stack.Screen name="Artikel" options={() => (animationSlide)}>
                 {props => <Artikel  {...props} {...stackProps} />}
+            </Stack.Screen>
+            <Stack.Screen name="EditArtikel" options={() => (animationSlide)}>
+                {props => <EditArtikel  {...props} {...stackProps} />}
+            </Stack.Screen>
+            <Stack.Screen name="TambahArtikel" options={() => (animationSlide)}>
+                {props => <TambahArtikel  {...props} {...stackProps} />}
             </Stack.Screen>
         </Stack.Navigator>
     </NavigationContainer>

@@ -26,30 +26,10 @@ export default ({ data, header }) => {
                             </View>
                         </TouchableOpacity>
                         :
-                        <Splitter xxLarge color={colors.lightGray} />
+                        <Splitter key={UUID()} xxLarge color={colors.lightGray} />
                 )
             })}
         </>
-        // <FlatList
-        //     showsVerticalScrollIndicator={false}
-        //     ListHeaderComponent={header && header() || null}
-        //     ListHeaderComponentStyle={styles.headerStyle}
-        //     data={data}
-        //     keyExtractor={() => UUID()}
-        //     renderItem={({ item: { title, iconName, type = 'menu', onPress, itemProps} }) => (
-        //         type == 'menu' ?
-        //             <TouchableOpacity
-        //                 activeOpacity={.8}
-        //                 onPress={onPress}>
-        //                 <View style={styles.listItem(colors.white)}>
-        //                     {iconName && <Icon name={iconName} size={40} color={colors.black} style={styles.icon} />}
-        //                     <MyText xLarge {...itemProps}>{title}</MyText>
-        //                 </View>
-        //             </TouchableOpacity>
-        //             :
-        //             <Splitter xxLarge color={colors.lightGray} />
-        //     )}
-        // />
     )
 };
 

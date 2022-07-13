@@ -8,6 +8,8 @@ import CardProduct from './CardProduct';
 import PlaceholderProduct from './PlaceholderProduct';
 import HeaderModal from './HeaderModal';
 import CardOrders from './CardOrders';
+import CardArticle from './CardArticle';
+import PlaceholderArticle from './PlaceholderArticle';
 export {
     FormInputs,
     DatePicker,
@@ -19,4 +21,6 @@ export {
     PlaceholderProduct,
     HeaderModal,
     CardOrders,
+    CardArticle,
+    PlaceholderArticle,
 }

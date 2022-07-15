@@ -6,6 +6,8 @@ import FormPolicySetup from "./FormPolicySetup";
 import FormSupportSetup from "./FormSupportSetup";
 import FormStoreSeoSetup from "./FormStoreSeoSetup";
 import FormStoreSocialSetup from "./FormStoreSocialSetup";
+import FormAddArticle from "./FormAddArticle";
+import FormEditArticle from "./FormEditArticle";
 
 export {
     FormLogin,
@@ -16,4 +18,6 @@ export {
     FormSupportSetup,
     FormStoreSeoSetup,
     FormStoreSocialSetup,
+    FormAddArticle,
+    FormEditArticle,
 }

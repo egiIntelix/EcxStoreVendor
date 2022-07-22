@@ -10,6 +10,7 @@ import ConfirmModal from './ConfirmModal';
 import ListOrders from './ListOrders';
 import ListArticle from './ListArticle';
 import ManageArticleModal from './ManageArticleModal';
+import ListPayment from './ListPayment';
 
 export {
     // OffCanvas,
@@ -24,4 +25,5 @@ export {
     ListOrders,
     ListArticle,
     ManageArticleModal,
+    ListPayment,
 }

@@ -10,6 +10,7 @@ import HeaderModal from './HeaderModal';
 import CardOrders from './CardOrders';
 import CardArticle from './CardArticle';
 import PlaceholderArticle from './PlaceholderArticle';
+import CardPayment from './CardPayment';
 export {
     FormInputs,
     DatePicker,
@@ -23,4 +24,5 @@ export {
     CardOrders,
     CardArticle,
     PlaceholderArticle,
+    CardPayment,
 }

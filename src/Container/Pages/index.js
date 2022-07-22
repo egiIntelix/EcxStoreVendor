@@ -30,6 +30,7 @@ import DetailPesanan from './DetailPesanan';
 import Artikel from './Artikel';
 import EditArtikel from './EditArtikel';
 import TambahArtikel from './TambahArtikel';
+import Pembayaran from './Pembayaran';
 
 const Stack = createNativeStackNavigator();
 
@@ -120,6 +121,9 @@ export default stackProps => (
             </Stack.Screen>
             <Stack.Screen name="TambahArtikel" options={() => (animationSlide)}>
                 {props => <TambahArtikel  {...props} {...stackProps} />}
+            </Stack.Screen>
+            <Stack.Screen name="Pembayaran" options={() => (animationSlide)}>
+                {props => <Pembayaran  {...props} {...stackProps} />}
             </Stack.Screen>
         </Stack.Navigator>
     </NavigationContainer>

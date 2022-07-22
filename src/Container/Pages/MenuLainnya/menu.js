@@ -2,7 +2,6 @@ export default (navigation) => [
     {
         title: 'Media',
         iconName: 'folder-image',
-        navigate: ''
     },
     {
         title: 'Artikel',
@@ -12,36 +11,30 @@ export default (navigation) => [
     {
         title: 'Pembayaran',
         iconName: 'credit-card-outline',
-        navigate: ''
+        onPress: () => navigation.navigate("Pembayaran")
     },
     {
         title: 'Kupon',
         iconName: 'ticket-percent-outline',
-        navigate: ''
     },
     {
         title: 'Konsumen',
         iconName: 'account-outline',
-        navigate: ''
     },
     {
         title: 'Buku Kas',
         iconName: 'book-outline',
-        navigate: ''
     },
     {
         title: 'Review',
         iconName: 'comment-text-outline',
-        navigate: ''
     },
     {
         title: 'Add to My Store',
         iconName: 'store-plus-outline',
-        navigate: ''
     },
     {
         title: 'Reports',
         iconName: 'file-chart-outline',
-        navigate: ''
     },
 ]

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "emulator": "C: && ( CD C:/Users/eCentrix/AppData/Local/Android/Sdk/emulator/ && emulator -avd Pixel_2_XL_API_29 )",
+    "emulator": "C: && ( CD C:/Users/eCentrix/AppData/Local/Android/Sdk/emulator/ && emulator -avd Pixel_2_API_30 )",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",

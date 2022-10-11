@@ -42,12 +42,12 @@ const animationSlide = {
 export default stackProps => (
     <NavigationContainer
         ref={navigationRef}
-        onReady={() => { 
+        onReady={() => {
             SplashScreen.hide();
-            log('Root Props : ', stackProps) 
+            log('Root Props : ', stackProps)
         }}>
         <Stack.Navigator
-            initialRouteName={"Home"}
+            initialRouteName={"Splash"}
             mode={"card"}
             ScreenOptions={{}}>
             <Stack.Screen name="Example" options={() => (animationSlide)}>

@@ -1,8 +1,7 @@
 import React, { memo, useRef } from "react";
 import { View, TouchableOpacity } from "react-native";
-import { TextInput } from 'react-native-paper';
+import { TextInput, useTheme } from 'react-native-paper';
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
-import { useTheme } from "react-native-paper";
 import { PageWrapper } from "@Atoms";
 import { Navbar, ListProduct, EditPriceModal, EditStockModal, ManageProductModal } from "@Organisms";
 import { log } from "@Utils";
@@ -21,12 +20,13 @@ const data = [
         status: 'publish',
         total_sales: '10',
         average_rating: "0",
-        image: [
-            "https://app74.ecentrix.net/ecx_store/wp-content/uploads/2022/06/9121c41e80bf4534c11da52988ff1145_0.jpg",
-            1792,
-            1792,
-            false
-        ],
+        // image: [
+        //     "https://app74.ecentrix.net/ecx_store/wp-content/uploads/2022/06/9121c41e80bf4534c11da52988ff1145_0.jpg",
+        //     1792,
+        //     1792,
+        //     false
+        // ],
+        image: "",
         store_id: "18",
         store_name: "test nama toko",
         store_address: {
@@ -41,7 +41,7 @@ const data = [
     },
     {
         name: 'Masker',
-        categories : 'Alat Kesehatan',
+        categories: 'Alat Kesehatan',
         description: "Deskripsi masker Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum labore nemo error, fugiat minima a quisquam, voluptates accusantium quia neque explicabo? Repellat vero fugit iusto fuga unde. Eos, cum qui!",
         short_description: "Deskripsi singkat masker",
         price: '30000',
@@ -82,7 +82,7 @@ export default memo((props) => {
         refEditStockModal?.current?.setVisible();
         log(data);
     }
-    
+
     return (
         <PageWrapper>
             <View style={styles.container}>

@@ -60,12 +60,13 @@ const data = [
                 qty: 1,
                 total: "10400",
                 image_id: "90",
-                image: [
-                    "https:\/\/app74.ecentrix.net\/ecx_store\/wp-content\/uploads\/2022\/06\/obat4.png",
-                    467,
-                    413,
-                    false
-                ],
+                // image: [
+                //     "https:\/\/app74.ecentrix.net\/ecx_store\/wp-content\/uploads\/2022\/06\/obat4.png",
+                //     467,
+                //     413,
+                //     false
+                // ],
+                image: "",
                 store_id: "2",
                 store_name: "TokoPertama",
                 store_url: "https:\/\/app74.ecentrix.net\/ecx_store\/store\/tokopertama\/",
